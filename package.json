@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "jest",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "expect": "^27.5.1",
+    "express": "^4.17.3"
+  },
+  "typeAcquisition": {
+    "include": [
+      "jest"
+    ]
+  }
+}
