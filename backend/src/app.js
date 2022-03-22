@@ -1,8 +1,10 @@
 const express = require("express")
+const cors = require('cors')
 
 const divisorController = require("./controller/divisorController")
 
 var app = express()
+app.use(cors())
 
 app.get('/divisores/:numero', divisorController.get_divisores)
 
